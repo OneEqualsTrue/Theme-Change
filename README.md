@@ -1,5 +1,5 @@
-### Theme Changer with React
-Dynamically change stylesheet (my learning react attempt 1)
+# Theme Changer with React
+Dynamically change stylesheet (my learning React.js attempt 1)
 
 --
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
