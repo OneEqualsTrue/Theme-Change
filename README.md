@@ -1,4 +1,4 @@
-###Theme Changer with React
+#Theme Changer with React
 Dynamically change stylesheet (my learning react attempt 1)
 
 --
