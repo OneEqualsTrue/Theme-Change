@@ -5,11 +5,11 @@ import Header from './components/header.js'
 class App extends React.Component {
 	constructor(props){
         super(props);
-        this.state = {stylePath: 'index-default.css'};
+        this.state = {path: 'index-default.css'};
     }
 
 	change(name) {
-		this.setState({stylePath: name});
+		this.setState({path: name});
 	}
 
 	render() {
@@ -20,7 +20,7 @@ class App extends React.Component {
 				<link 
 					rel="stylesheet" 
 					type="text/css" 
-					href={this.state.stylePath} 
+					href={this.state.path} 
 				/>
 				<button 
 					onClick={()=> this.change('index-default.css')} 
